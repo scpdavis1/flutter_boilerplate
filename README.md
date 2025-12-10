@@ -27,6 +27,7 @@
 * If an error occurs, you're probably missing cmake or something. here is a list of dependencies I needed to get for on linux:
     * `curl git unzip xz-utils zip libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev build-essential`
 * Cleaning your build: `flutter clean`.
+* Update flutter package using pub: `flutter pub get`
 
 ## Structure info:
 * The "main file" in this empty project will be `<project>/lib/main.dart`.
